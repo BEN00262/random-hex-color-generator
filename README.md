@@ -1,5 +1,7 @@
 <h1>rand-hex-color</h1>
 
+Demo [https://color-generator-rsp.pages.dev/](https://color-generator-rsp.pages.dev/)
+
 ```js
 
 import generate_random_colors from 'rand-hex-color';
