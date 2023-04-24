@@ -1,14 +1,16 @@
 {
   "name": "rand-hex-color",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Random color generator with perceptual distance considerations",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["random-hex-generator"],
+  "keywords": ["random-hex-generator", "rand-hex-color"],
   "author": "cyphers <https://github.com/waluisachi> ben00262 <https://github.com/BEN00262>",
+  "repository": "https://github.com/BEN00262/random-hex-color-generator",
+  "homepage": "https://github.com/BEN00262/random-hex-color-generator#readme",
   "license": "ISC",
   "dependencies": {
     "chroma-js": "^2.4.2"

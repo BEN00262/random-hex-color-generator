@@ -16,7 +16,7 @@ function hexColorDifference(hex1, hex2) {
 
 function check_if_colors_similar(hex1, hex2) {
     let diff = hexColorDifference(hex1, hex2);
-    return diff <= 10;
+    return diff <= 20;
 }
 
 const generate_random_color = () => {
@@ -29,7 +29,7 @@ const generate_random_color = () => {
     return `#${z1}${x}`
 }
 
-function generate_random_colors(how_many = 1) {
+export default function generate_random_colors(how_many = 1) {
     if (how_many === 1) {
         return generate_random_color();
     }
@@ -44,5 +44,3 @@ function generate_random_colors(how_many = 1) {
         return [...acc, generated_color]
     }, [])
 }
-
-module.exports = generate_random_colors;
