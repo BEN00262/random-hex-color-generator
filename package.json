@@ -1,0 +1,22 @@
+{
+  "name": "random-hex-color-generator",
+  "version": "1.0.0",
+  "description": "Random color generator with perceptual distance considerations",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["random-hex-generator"],
+  "author": "cyphers <https://github.com/waluisachi> ben00262 <https://github.com/BEN00262>",
+  "license": "ISC",
+  "dependencies": {
+    "chroma-js": "^2.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0"
+  }
+}
