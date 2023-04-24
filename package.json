@@ -1,5 +1,5 @@
 {
-  "name": "random-hex-color-generator",
+  "name": "rand-hex-color",
   "version": "1.0.0",
   "description": "Random color generator with perceptual distance considerations",
   "main": "index.js",

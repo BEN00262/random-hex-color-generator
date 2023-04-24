@@ -1,6 +1,8 @@
+<h1>rand-hex-color</h1>
+
 ```js
 
-import generate_random_colors from 'generate_random_colors';
+import generate_random_colors from 'rand-hex-color';
 
 console.log(
     generate_random_colors(12)
